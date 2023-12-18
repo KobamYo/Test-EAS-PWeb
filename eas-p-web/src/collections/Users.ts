@@ -10,6 +10,9 @@ const Users: CollectionConfig = {
     // Email added by default
     // Add more fields as needed
   ],
+  access: {
+    create: () => true,
+  }
 }
 
 export default Users
